@@ -1,0 +1,88 @@
+/*Universal Style & Base Fonts*/
+*{
+    padding: 0px;
+    margin: 0px;
+    
+}
+.raleway-font {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+/*Common Styles*/
+.primary-color{
+    color: #4E47FF;
+}
+.bg-color{
+    background-color: #F5F8FF;
+}
+.btn{
+    background-color: #4E47FF;
+    height: 48px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 10px;
+    transition:transform 1s ease ;
+
+}
+
+/*Heading Section*/
+header{
+    background-image: url(../Assets/Hero-bg.png);
+    height: 698px;
+    
+}
+.main-area{
+    max-width: 1340px;
+    margin: 0 auto;
+}
+/*Navigation Bar*/
+header nav{
+    display: flex;
+    justify-content: space-between;
+}
+header nav h3{
+    font-size: 34px;
+    font-weight: 900;
+}
+.nav-btn,.logo{
+    margin-top: 50px;
+}
+.nav-btn{
+    width: 135px;
+    transition: transform 0.5s ease;
+}
+.nav-btn:hover{
+    background-color: rgb(57, 134, 175);
+    transform: scale(1.08);
+}
+/*Hero-Section*/
+.hero-section{
+    display: flex;
+    text-align: center;
+    flex-direction: column;      
+    justify-content: center;    
+    align-items: center;                         
+    text-align: center;    
+    
+}
+.Big-Title{
+    width: 905px;
+    font-weight: 700;
+    font-size: 65px;
+    margin: 0 auto;
+    margin-top: 160px;
+    margin-bottom: 37px;
+    color: #252432;
+}
+.hero-btn{
+    width: 174px ;
+    transition: transform 0.5s ease;
+}
+.hero-btn:hover{
+    background-color: rgb(57, 134, 175);
+    transform: scale(1.08);
+}
