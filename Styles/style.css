@@ -10,6 +10,12 @@
   font-style: normal;
 }
 
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
 /*Common Styles*/
 .primary-color{
     color: #4E47FF;
@@ -125,4 +131,89 @@ main{
 .action-section img{
     border: none;
     border-radius: 48px;
+}
+/*Productive User Section */
+.productive-user-section{
+    background-color:rgba(78, 71, 255, 0.1) ;
+    height: 306px;
+    border: none;
+    border-radius: 24px;
+    text-align: center;
+    margin-bottom: 137px;
+}
+.user-title{
+    font-size: 38px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    padding-top: 50px;
+}
+.stat-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.stat h2{
+    font-size: 90px;
+    font-weight: 700;
+    color: #4E47FF;
+}
+.stat p{
+    font-weight: 400;
+    font-size: 20px;
+    color:rgba(0, 0, 0, 0.5) ;
+}
+
+/* User Review Section*/
+.user-review{
+    margin-bottom: 120px;
+}
+.review-title{
+    font-weight: 700;
+    font-size: 42px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.review-cards-container{
+    display: flex;
+    justify-content: center;
+    gap: 20px ;
+}
+.card{
+    background-color:rgba(255, 255, 255, 0.5) ;
+    border: none;
+    border-radius: 14px;
+    width: 367px;
+    height: 243px;
+    padding-left: 24px;
+}
+.star{
+    padding-top: 24px;
+    margin-bottom:24px ;
+}
+.card-title{
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: rgba(30, 30, 30, 1);
+}
+.card-description{
+    font-size: 18px;
+    font-weight: 400;
+    color:rgba(30, 30, 30, 1) ;
+    margin-bottom: 24px;
+}
+.reviwer-info{
+    display: flex;
+    gap: 20px;
+}
+.reviwer-info img{
+    border-radius: 50%;
+}
+.name{
+    font-size: 20px;
+    font-weight: 600;
+    color: rgba(117, 117, 117, 1);
+}
+.date{
+    font-size: 18px;
+    color: rgba(179, 179, 179, 1);
 }
