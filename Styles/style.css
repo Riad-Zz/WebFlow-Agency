@@ -228,7 +228,7 @@ main{
     align-items: center;
     border: none;
     border-radius: 20px;
-    margin-bottom: 120px;
+    margin-bottom: 90px;
 }
 .focus-title{
     font-size: 50px;
@@ -251,4 +251,62 @@ main{
 }
 .focus-better-section img{
     border-radius: 48px;
+}
+/*Get in touch Section */
+.getInTouch-section{
+    height: 632px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 115px;
+}
+.GT-title{
+    font-size: 97px;
+    font-weight: 700;
+    color:rgba(0, 0, 0, 1) ;
+}
+
+.input-info label{
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+    margin-bottom: 18px;
+}
+
+.input1,.input2{
+    height: 70px;
+    width: 497px;
+    border: none;
+    border-radius: 10px;
+    padding-left: 32px;
+    margin-bottom: 20px;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 20px;
+    font-weight: 400;
+}
+.big-area{
+    height: 120px;
+    width: 497px;
+    border: none;
+    border-radius: 10px;
+    padding-left: 32px;
+    padding-top: 50px;
+    margin-bottom: 20px;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 20px;
+    font-weight: 400;
+}
+.getTouch-btn{
+    height: 62px;
+    width: 497px;
+    font-size:16px ;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 10px;
+    
+    transition: transform 0.5s ease;
+}
+.getTouch-btn:hover{
+    background-color: rgb(57, 134, 175);
+    transform: scale(1.08);
 }
