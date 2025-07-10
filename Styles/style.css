@@ -26,6 +26,7 @@
     border: none;
     border-radius: 10px;
     transition:transform 1s ease ;
+    cursor: pointer;
 
 }
 
@@ -33,6 +34,7 @@
 header{
     background-image: url(../Assets/Hero-bg.png);
     height: 698px;
+    margin-bottom: 116px;
     
 }
 .main-area{
@@ -85,4 +87,42 @@ header nav h3{
 .hero-btn:hover{
     background-color: rgb(57, 134, 175);
     transform: scale(1.08);
+}
+/*Main Section*/
+main{
+    max-width: 1340px;
+    margin: 0 auto;
+}
+/*Action Section*/
+.action-section{
+    display: flex;
+    justify-content: space-between;
+    height: 328px;
+    align-items: center;
+    margin-bottom: 116px;
+}
+.action-title{
+    font-weight: 700;
+    font-size: 42px;
+    margin-bottom: 23px;
+    color: #252432;
+}
+.description{
+    width: 517px;
+    font-weight: 400;
+    font-size: 24px;
+    color: rgba(37, 36, 50, 0.5);
+    margin-bottom: 23px;
+}
+.launch-btn{
+    width: 229px;
+    transition: transform 0.5s ease;
+}
+.launch-btn:hover{
+    background-color: rgb(57, 134, 175);
+    transform: scale(1.08);
+}
+.action-section img{
+    border: none;
+    border-radius: 48px;
 }
